@@ -13,7 +13,7 @@ A python implemention for checking D-separation in a Bayesian Networks (BN).
 2 4
 3 4
 ```
-which implies a graph of
+which implies a graph:
 ```
 4<--------
 ^    |    |
@@ -24,6 +24,11 @@ which implies a graph of
 ```
 {1} {3} {2}
 {1} {2} {}
+```
+which implies queries to be checked:
+```
+{1} ⊥ {3} | {2}
+{1} ⊥ {2} |  ∅
 ```
 #### Run:
 ```
