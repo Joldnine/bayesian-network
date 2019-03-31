@@ -1,5 +1,9 @@
 # bayesian-network
 A python implemention for checking D-separation in a Bayesian Networks (BN).
+The main algorithm follows
+```
+Koller and Friedman (2009), "Probabilistic Graphical Models: Principles and Techniques" (page 75)
+```
 
 # Input and Ouput
 ## Example
