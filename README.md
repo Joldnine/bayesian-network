@@ -41,6 +41,6 @@ $ python d-sep.py graph.txt queries.txt
 
 ### Output
 ```
-True
-False
+1
+0
 ```
